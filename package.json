@@ -1,6 +1,6 @@
 {
   "name": "exclude-match",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Exclude array items matching a given pattern.",
   "main": "index.js",
   "scripts": {
