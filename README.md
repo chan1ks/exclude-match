@@ -69,10 +69,10 @@ For bugs or feature requests, [please create an issue](https://github.com/chan1k
 
 ## Release History
 
-2016-10-05 - v1.0.1 - Added build status to README.
-2016-10-05 - v1.0.0 - Updated README.md. Added CI file for passing builds.
-2016-10-03 - v0.2.0 - Updated dependencies. Reinforced type-checks.
-2016-10-01 - v0.1.0 - Initial release.
+2016-10-05 - v1.0.1 - Added build status to README.  
+2016-10-05 - v1.0.0 - Updated README.md. Added CI file for passing builds.  
+2016-10-03 - v0.2.0 - Updated dependencies. Reinforced type-checks.  
+2016-10-01 - v0.1.0 - Initial release.  
 
 ## Author
  
@@ -81,7 +81,7 @@ For bugs or feature requests, [please create an issue](https://github.com/chan1k
 
 ## License
 
-Copyright © 2016, ["Captain" Morgan Worrell](https://github.com/chan1ks).
+Copyright © 2016, ["Captain" Morgan Worrell](https://github.com/chan1ks).  
 Released under the [MIT license](https://github.com/chan1ks/exclude-match/blob/master/LICENSE).
 
 [micromatch]: http://github.com/jonschlinkert/micromatch
