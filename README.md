@@ -57,7 +57,7 @@ For bugs or feature requests, [please create an issue](https://github.com/chan1k
 
 ## Release History
 
-2013-03-08 - v1.0.0 - Updated README.md.
+2013-03-08 - v1.0.0 - Updated README.md. Added CI file for passing builds.
 2012-11-15 - v0.2.0 - Updated dependencies. Reinforced type-checks.
 2012-11-01 - v0.1.0 - Initial release.
 
