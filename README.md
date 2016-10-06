@@ -1,4 +1,4 @@
-# exclude-match [![Build Status](https://travis-ci.org/chan1ks/exclude-match.svg?branch=master)](https://travis-ci.org/chan1ks/exclude-match)
+# exclude-match [![npm version](https://badge.fury.io/js/exclude-match.svg)](https://badge.fury.io/js/exclude-match) [![Build Status](https://travis-ci.org/chan1ks/exclude-match.svg?branch=master)](https://travis-ci.org/chan1ks/exclude-match)
 
 > Exclude items in an array matching a given pattern.
 
@@ -57,9 +57,10 @@ For bugs or feature requests, [please create an issue](https://github.com/chan1k
 
 ## Release History
 
-2013-03-08 - v1.0.0 - Updated README.md. Added CI file for passing builds.
-2012-11-15 - v0.2.0 - Updated dependencies. Reinforced type-checks.
-2012-11-01 - v0.1.0 - Initial release.
+2016-10-05 - v1.0.1 - Added build status to README
+2016-10-05 - v1.0.0 - Updated README.md. Added CI file for passing builds.
+2016-10-03 - v0.2.0 - Updated dependencies. Reinforced type-checks.
+2016-10-01 - v0.1.0 - Initial release.
 
 ## Author
  
