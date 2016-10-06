@@ -65,11 +65,12 @@ $ npm install -d && npm test
 
 Take care to maintain the existing coding style. Add unit tests for any new or changed functionality.
 
-For bugs or feature requests, [please create an issue](https://github.com/chan1ks/exclude/issues).
+For bugs or feature requests, [please create an issue](https://github.com/chan1ks/exclude-match/issues).
 
 ## Release History
 
-2016-10-05 - v1.0.4 - Added LICENSE.  
+2016-10-06 - v1.0.5 - Modified CI build config.  
+2016-10-06 - v1.0.4 - Added LICENSE.  
 2016-10-05 - v1.0.1 - Added build status to README.  
 2016-10-05 - v1.0.0 - Updated README.md. Added CI file for passing builds.  
 2016-10-03 - v0.2.0 - Updated dependencies. Reinforced type-checks.  
