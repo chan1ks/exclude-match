@@ -13,19 +13,31 @@ $ npm install --save exclude-match
 ```js
 var exclude = require('exclude-match');
 exclude(array, patternOrPatterns [, micromatchOptions]);
+```
 
+### Strings and Arrays
+
+```js
 // match single strings...
 var array1 = exclude(['a', 'b', 'c'], 'a');
 
 // or array of strings
 var array2 = exclude(['a', 'b', 'c'], ['a', 'b']);
+```
 
+### Globs
+
+```js
 // match globs, and ignore case...
 var array3 = exclude(['a', 'b', 'c'], '*.txt', {nocase: true});
 
 // or array of globs
 var array3 = exclude(['a.txt', 'b.json', 'c.js'], ['*.{js,json}', '!*.txt']);
+```
 
+### Numbers
+
+```js
 // works with numbers too...
 var array3 = exclude([1, 2, 3, 4, 5], 4);
 
@@ -57,7 +69,7 @@ For bugs or feature requests, [please create an issue](https://github.com/chan1k
 
 ## Release History
 
-2016-10-05 - v1.0.1 - Added build status to README
+2016-10-05 - v1.0.1 - Added build status to README.
 2016-10-05 - v1.0.0 - Updated README.md. Added CI file for passing builds.
 2016-10-03 - v0.2.0 - Updated dependencies. Reinforced type-checks.
 2016-10-01 - v0.1.0 - Initial release.
