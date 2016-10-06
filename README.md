@@ -1,4 +1,4 @@
-# exclude-match
+# exclude-match [![Build Status](https://travis-ci.org/chan1ks/exclude-match.svg?branch=master)](https://travis-ci.org/chan1ks/exclude-match)
 
 > Exclude items in an array matching a given pattern.
 
