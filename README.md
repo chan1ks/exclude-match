@@ -35,7 +35,7 @@ var array3 = exclude(['a.txt', 'B.txt', 'C.txt'], '*.txt', {nocase: true});
 // ['a.txt', 'B.txt', 'C.txt']
 
 // or array of globs
-var array3 = exclude(['a.txt', 'b.json', 'c.js', 'd.txt'], ['*.{js,json}', '!*.txt']);
+var array4 = exclude(['a.txt', 'b.json', 'c.js', 'd.txt'], ['*.{js,json}', '!*.txt']);
 // ['b.json', 'c.js']
 ```
 
@@ -43,15 +43,15 @@ var array3 = exclude(['a.txt', 'b.json', 'c.js', 'd.txt'], ['*.{js,json}', '!*.t
 
 ```js
 // works with numbers too...
-var array3 = exclude([1, 2, 3, 4, 5], 4);
+var array5 = exclude([1, 2, 3, 4, 5], 4);
 // [1, 2, 3, 5]
 
 // and glob matches...
-var array3 = exclude([1, 2, 3, 4, 5], '{1...4}');
+var array6 = exclude([1, 2, 3, 4, 5], '{1...4}');
 // [5]
 
 // and even an array of globs
-var array3 = exclude([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], ['{1...4}', '!{2..3}']);
+var array7 = exclude([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], ['{1...4}', '!{2..3}']);
 // [2, 3, 5, 6, 7, 8, 9, 10]
 ```
 
@@ -76,7 +76,8 @@ For bugs or feature requests, [please create an issue](https://github.com/chan1k
 
 ## Release History
 
-2016-10-06 - v1.0.5 - Patch fixes.  
+2016-10-09 - v1.0.7 - Patch fixes.  
+2016-10-09 - v1.0.6 - Patch fixes.  
 2016-10-06 - v1.0.5 - Modified CI build config.  
 2016-10-06 - v1.0.4 - Added LICENSE.  
 2016-10-05 - v1.0.1 - Added build status to README.  
